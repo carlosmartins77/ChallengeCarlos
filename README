@@ -1,0 +1,11 @@
+
+What to do with the data?
+
+Assuming, this data is the output of the execution of an ML generated model, an accuracy analysis could be made to check the precision of the model. 
+This by analysing the predicted label against the actual label.
+
+I'm not sure if this is correct, but assuming the feature vector represents the space where the data points are (multi dimensional space) we could compare the distances from different features to see if they 
+are distant or close. Because if they are close it could mean the model did a good job in learning to group similar categories, but it could also mean the model is having trouble 
+distinguishing between categories.
+
+We could also do a confusion matrix to see if there are patterns that are leading the model to misclassify categories. By knowing false negatives and positiv
