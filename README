@@ -1,4 +1,9 @@
+It was built using FASTApi, so to run it simply open a command line on the  project's folder, install  the project's dependencies  by running "pip install -r requirements.txt" and then to run the server type "uvicorn main:app"  !
 
+
+
+
+Analysis Questions:
 What to do with the data?
 
 Assuming, this data is the output of the execution of an ML generated model, an accuracy analysis could be made to check the precision of the model. 
